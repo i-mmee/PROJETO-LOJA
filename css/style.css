@@ -130,7 +130,16 @@ aside{
     width: 0vw;
     overflow-x: hidden;
     font-family: 'Alkatra', Helvetica, Arial;
+    transition: all ease 0.2s;
 }
+
+aside.show{
+  width: 30vw;
+  background-color: rgb(115, 143, 155);
+  color:#000000;
+}
+
+
 
 .cart-area{
     padding: 10px;
